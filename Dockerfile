@@ -6,7 +6,7 @@ orbs:
 jobs:
   build:
     environment:
-      IMAGE_NAME: myrepo/myapp
+      IMAGE_NAME: https://github.com/luismendes070/linux-projeto2-iac
     docker:
         - image: circleci/buildpack-deps:stretch
     steps:
